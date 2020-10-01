@@ -33,7 +33,8 @@ def is_prime(num):
 
 # Generates Random Prime Number
 def generateRandomPrime():
-    while(1):
+    flag=0
+    while(!flag):
         randomPrime = random.randint(0,max_PrimLength)
         if is_prime(randomPrime):
             return randomPrime
