@@ -35,6 +35,8 @@ def is_prime(num):
 
 # Generates Random Prime Number
 def generateRandomPrime():
+    flag=0
+    while(!flag):
     flag=1
     while(flag):
         randomPrime = random.randint(0,max_PrimLength)
