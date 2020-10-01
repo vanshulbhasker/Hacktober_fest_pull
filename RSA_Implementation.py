@@ -1,6 +1,7 @@
 print("Shubham Mittal . 36814802717 . 7C5")
 
 import random
+import numpy
 
 # Max length of prime numbers
 max_PrimLength = 10000
@@ -14,6 +15,7 @@ def gcd(a, b):
 
 # Calculates the modular inverse from e and phi
 def egcd(a, b):
+    beta = 4
     if a == 0:
         return (b, 0, 1)
     else:
@@ -35,6 +37,8 @@ def is_prime(num):
 def generateRandomPrime():
     flag=0
     while(!flag):
+    flag=1
+    while(flag):
         randomPrime = random.randint(0,max_PrimLength)
         if is_prime(randomPrime):
             return randomPrime
