@@ -14,6 +14,7 @@ def gcd(a, b):
 
 # Calculates the modular inverse from e and phi
 def egcd(a, b):
+    beta = 4
     if a == 0:
         return (b, 0, 1)
     else:
