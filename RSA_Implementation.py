@@ -1,6 +1,7 @@
 print("Shubham Mittal . 36814802717 . 7C5")
 
 import random
+import numpy
 
 # Max length of prime numbers
 max_PrimLength = 10000
