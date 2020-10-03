@@ -64,7 +64,7 @@ def generate_keyPairs():
         g = gcd(e, phi)
         
     print("e = ",e)
-    
+    b=1234
     # d = modular inverse of e and phi
     d = egcd(e, phi)[1]
     
