@@ -109,7 +109,7 @@ print("Private key pair (d,n): ",private_key)
 # Encrypt message with public key pair
 encryptedText = encrypt(inputStr,public_key)
 print("encrypted  = ",encryptedText)
-
+print("encrypted  = ",cyphertext)
 # Decrypt encrypted message with private key pair
 decryptedText = decrypt(encryptedText, private_key)
 print("decrypted = ",decryptedText)
