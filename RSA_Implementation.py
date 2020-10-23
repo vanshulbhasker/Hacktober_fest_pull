@@ -112,4 +112,6 @@ print("encrypted  = ",encryptedText)
 
 # Decrypt encrypted message with private key pair
 decryptedText = decrypt(encryptedText, private_key)
+print("encrypted  = ",encryptedText)
+
 print("decrypted = ",decryptedText)
